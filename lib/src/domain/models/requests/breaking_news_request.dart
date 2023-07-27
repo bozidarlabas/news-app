@@ -1,14 +1,14 @@
 import '../../../utils/constants/nums.dart';
 import '../../../utils/constants/strings.dart';
 
-class BreakingNewsRequests {
+class BreakingNewsRequest {
   final String apiKey;
   final String country;
   final String category;
   final int page;
   final int pageSize;
 
-  const BreakingNewsRequests({
+  const BreakingNewsRequest({
     this.apiKey = defaultApiKey,
     this.country = 'us',
     this.category = 'general',
