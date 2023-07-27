@@ -15,7 +15,7 @@ abstract class _$AppRouter extends RootStackRouter {
 
   @override
   final Map<String, PageFactory> pagesMap = {
-    BreakingNewsView.name: (routeData) {
+    BreakingNewsRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
         child: const BreakingNewsView(),
@@ -26,14 +26,14 @@ abstract class _$AppRouter extends RootStackRouter {
 
 /// generated route for
 /// [BreakingNewsView]
-class BreakingNewsView extends PageRouteInfo<void> {
-  const BreakingNewsView({List<PageRouteInfo>? children})
+class BreakingNewsRoute extends PageRouteInfo<void> {
+  const BreakingNewsRoute({List<PageRouteInfo>? children})
       : super(
-          BreakingNewsView.name,
+          BreakingNewsRoute.name,
           initialChildren: children,
         );
 
-  static const String name = 'BreakingNewsView';
+  static const String name = 'BreakingNewsRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
