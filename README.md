@@ -1,6 +1,6 @@
 # News App (Flutter)
 
-<img src="https://github.com/bozidarlabas/news-app/assets/3056799/51728add-a69a-493b-8ae3-991a5509e210" alt="news_app" width="300" height="649">
+<img src="https://github.com/bozidarlabas/news-app/assets/3056799/80d73c62-ea4e-449f-9d0b-f3fa243b2687" alt="news_app" width="300" height="649">
 
 # This application is developed, incorporating essential components such as:
 
