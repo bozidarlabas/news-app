@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/src/locator.dart';
 import 'package:oktoast/oktoast.dart';
-
+import 'src/locator.dart';
 import 'src/config/router/app_router.dart';
 import 'src/domain/repositories/api_repository.dart';
 import 'src/presentation/cubits/remote_articles/remote_articles_cubit.dart';

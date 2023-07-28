@@ -1,9 +1,11 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'dart:convert';
 import 'package:equatable/equatable.dart';
-import 'package:news_app/src/domain/models/source.dart';
+import 'package:floor/floor.dart';
+import '../../utils/constants/strings.dart';
+import 'source.dart';
 
+@Entity(tableName: articlesTableName)
 class Article extends Equatable {
+  @PrimaryKey(autoGenerate: true)
   final int? id;
   final Source? source;
   final String? author;
