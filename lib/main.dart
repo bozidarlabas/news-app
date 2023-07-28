@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:news_app/src/domain/repositories/database_repository.dart';
 import 'package:oktoast/oktoast.dart';
 import 'src/locator.dart';
 import 'src/config/router/app_router.dart';
 import 'src/domain/repositories/api_repository.dart';
+import 'src/presentation/cubits/local_articles/cubit/local_articles_cubit.dart';
 import 'src/presentation/cubits/remote_articles/remote_articles_cubit.dart';
 
 Future<void> main() async {
@@ -22,6 +24,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
+        BlocProvider(
+          create: (context) => LocalArticlesCubit(
+            locator<DatabaseRepository>(),
+          )..getSavedArticles(),
+        ),
         BlocProvider(
             create: (context) => RemoteArticlesCubit(
                   locator<ApiRepository>(),
