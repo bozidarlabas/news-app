@@ -1,4 +1,4 @@
-# News App
+# News App (Flutter)
 This application is developed, incorporating essential components such as:
 
 **Clean Architecture**: The application adheres to the Clean Architecture principles, which emphasize the separation of concerns and the independence of business logic from external frameworks and libraries.
