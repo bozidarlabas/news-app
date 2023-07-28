@@ -1,6 +1,8 @@
 # News App
 This application is developed, incorporating essential components such as:
 
+**Clean Architecture**: The application adheres to the Clean Architecture principles, which emphasize the separation of concerns and the independence of business logic from external frameworks and libraries.
+
 **Dependency Injection** ([get-it](https://pub.dev/packages/get_it)): The application employs dependency injection to promote a loosely coupled and easily maintainable codebase. By injecting dependencies, it facilitates the management and testing of components in isolation.
 
 **API Services** ([retrofit](https://pub.dev/packages/retrofit)): The app integrates API services to communicate with remote servers, enabling data retrieval and interaction with external resources.
@@ -16,3 +18,7 @@ This application is developed, incorporating essential components such as:
 **Lint** ([lint](https://pub.dev/packages/lint)): Code linting is employed to enforce consistent coding standards and identify potential errors or issues early in the development process, enhancing code quality.
 
 By adopting these industry best practices and architectural patterns, the application achieves modularity, maintainability, and scalability, resulting in a robust and professional software solution.
+
+# App overview
+
+![news_app](https://github.com/bozidarlabas/news-app/assets/3056799/51728add-a69a-493b-8ae3-991a5509e210)
