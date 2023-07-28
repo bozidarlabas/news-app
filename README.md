@@ -1,5 +1,8 @@
 # News App (Flutter)
-This application is developed, incorporating essential components such as:
+
+<img src="https://github.com/bozidarlabas/news-app/assets/3056799/51728add-a69a-493b-8ae3-991a5509e210" alt="news_app" width="300" height="649">
+
+# This application is developed, incorporating essential components such as:
 
 **Clean Architecture**: The application adheres to the Clean Architecture principles, which emphasize the separation of concerns and the independence of business logic from external frameworks and libraries.
 
@@ -18,7 +21,3 @@ This application is developed, incorporating essential components such as:
 **Lint** ([lint](https://pub.dev/packages/lint)): Code linting is employed to enforce consistent coding standards and identify potential errors or issues early in the development process, enhancing code quality.
 
 By adopting these industry best practices and architectural patterns, the application achieves modularity, maintainability, and scalability, resulting in a robust and professional software solution.
-
-# App overview
-
-![news_app](https://github.com/bozidarlabas/news-app/assets/3056799/51728add-a69a-493b-8ae3-991a5509e210)
